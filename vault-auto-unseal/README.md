@@ -104,10 +104,6 @@ WantedBy=vault.service
 * Runs automatically after Vault starts
 * Ensures Vault is always unsealed after reboot
 
- ![Vault Unsealed](/docs/screenshots/vault-unsealed-cmd.png)
-
- ![Vault Unsealed](/docs/screenshots/vault-unsealed-ui.png)
-
 ## Vault Auto-Unseal After Restart
 
 These screenshots show Vault automatically unsealed after a server or service restart using the `vault-unseal.sh` script.
@@ -125,4 +121,3 @@ These screenshots show Vault automatically unsealed after a server or service re
 * Helps with faster recovery and uptime
 * Useful for automated environments
 
-```
