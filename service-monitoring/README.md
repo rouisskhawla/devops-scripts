@@ -70,6 +70,9 @@ Run it daily using cron:
 ```bash
 0 * * * * /home/ubuntu/disk-usage-alert.sh
 ```
+**Check received email alert screenshot here**  ![Email Alert](/docs/screenshots/email-alert.png)
+
+(I forced alert test by setting threshold to 50 and run script every 10 minutes using cronjob)
 
 ###  Why this is useful
 
